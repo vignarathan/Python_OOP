@@ -27,7 +27,8 @@ class Student:
             result='F'
         return result
     def display(self):
-        print("ID \t: "+str(self.id))
+        print(f"{' ':<15}{' ':<15}")
+        print(f"{'ID':<15}{str(self.id):<15}") 
         print("Name \t: "+self.name)
         print("Marks m1 : "+str(self.m1))
         print("Marks m2 : "+str(self.m2))
