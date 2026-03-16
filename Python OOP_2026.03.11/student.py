@@ -1,5 +1,5 @@
-class Student:
-    pass
+ class Student:
+    pass #a null operation used as a place holder, subject to be added later
     
 stu1=Student()
 print(stu1)
